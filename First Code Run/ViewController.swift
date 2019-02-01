@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    let someString: String = HelloWorld().sayHello()
+    let someString: String = HelloWorld().sayHello("ViewController")
     
     override func viewDidLoad() {
         print("Hello from viewDidLoad")

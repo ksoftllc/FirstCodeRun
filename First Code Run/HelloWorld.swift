@@ -10,9 +10,9 @@ import Foundation
 
 struct HelloWorld {
     
-    func sayHello() -> String {
-        print("Hello from ViewController property")
+    func sayHello(_ from: String) -> String {
+        print("Hello from \(from) property")
         // anything here runs before AppDelegate
-        return "Hello World"
+        return ""
     }
 }
